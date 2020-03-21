@@ -1,0 +1,65 @@
+body{
+  padding: 0 !important;
+  margin: 0 !important;
+  height: auto; 
+width: 1000px;
+margin: 0 auto;
+overflow: hidden;
+}
+.btn {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+.banner {
+width:84%;
+height: auto;
+margin: 0 auto;
+position:relative;
+background-image: url(15.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+  background-size: cover;
+
+}
+div.cont {
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+  }
+
+  body {
+    background-color:#777777; 
+}
+
+text {
+
+}
+
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}

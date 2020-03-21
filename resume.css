@@ -1,0 +1,90 @@
+.boxed {
+	align-content: center;
+  border: 1px solid black ;
+}
+
+a { color: lightgrey;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 10px;
+}
+
+a:hover {
+  color: blue;
+}
+#wrapper{
+  align-content: center;
+  width: 100%;
+}
+.previous {
+  background-color: black;
+  color: blue;
+}
+
+.boxed {
+	align-content: center;
+  border: 1px solid black ;
+}
+
+.previousboxed{
+  background-color : black;
+  color: blue;
+  padding: 5px 5px;
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  border-color: black;
+}
+
+#mybutton {
+  position: fixed;
+  bottom: 5px;
+  right: 10px;
+}
+h1 {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid lightgrey; 
+   line-height: 0.1em;
+   margin:10px 0 20px;
+   
+   }
+
+ h1 span { 
+   background:#fff; 
+    padding:0 10px; 
+}
+
+
+.column1 {
+  align-content: right;
+  padding-left: 10px;
+  float: right;
+  width: 42.5%;
+}
+
+.column2 {
+  position: relative;
+  float: left;
+  width: 15%;
+}
+
+.culumn3 {
+  padding-right: 10px;
+  float: left;
+  width: 42.5%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.iconify { 
+  color: blue; 
+}
+
+
+

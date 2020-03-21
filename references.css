@@ -1,0 +1,114 @@
+.boxed {
+	align-content: center;
+  border: 1px solid black ;
+}
+body{
+  position: relative;
+}
+@media only screen and (max-width: 768px) {...} 
+ 
+/* Extra small devices "Tabs" */
+@media only screen and (max-width: 992px) {...} 
+/* Extra small devices "Tabs" */
+@media only screen and (max-width: 1200px) {...}
+ 
+@media only screen and (max-width: 1920px) {...}
+
+a {
+  color: blue;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 10px;
+}
+
+a:hover {
+  color: blue;
+}
+#wrapper{
+  align-content: center;
+  width: 80%;
+}
+.previous {
+  background-color: black;
+  color: blue;
+}
+
+.boxed {
+	align-content: center;
+  border: 1px solid black ;
+}
+
+.previousboxed{
+  background-color : black;
+  color: blue;
+  padding: 5px 5px;
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  border-color: black;
+}
+
+#mybutton {
+  position: fixed;
+  bottom: 5px;
+  right: 10px;
+}
+h1 {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid lightgrey; 
+   line-height: 0.1em;
+  margin:10px 0 20px;
+} 
+
+h1 span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+
+
+.column1 {
+  align-content: right;
+  padding-left: 60px;
+  float: left;
+  width: 33.3%;
+  position: relative;
+}
+
+.column2 {
+  position: relative;
+  float: left;
+  width: 33.3%;
+}
+
+.column3 {
+  position: relative;
+  padding-right: 60px;
+  float: left;
+  width: 33.3%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext');
+
+html {
+  position: relative;
+  overflow-x: hidden!important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.iconify { 
+  color: blue; 
+}
+
+hr {
+    border-top: 1px solid white;
+}
